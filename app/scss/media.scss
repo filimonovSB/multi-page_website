@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .header__menu-button {
+    display: none;
+  }
+  .rightside-menu {
+    display: none;
+  }
+  .header__menu-item {
+    margin-left: 0;
+    margin-right: 0;
+    & + .header__menu-item {
+      margin-left: 20px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .header__logo {
+    order: -1;
+  }
+}
